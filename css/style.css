@@ -126,7 +126,7 @@ a {
   box-shadow: 1px 1px 6px #132045;
 }
 .button-header:hover {
-  background-color: #0052CC;
+  background-color: transparent;
   font-weight: 600;
   box-shadow: 0px 0px 0px #132045;
 }
@@ -213,7 +213,7 @@ b {
   border: 4px solid #0052CC;
 }
 .button-body:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: #0052CC;
   font-weight: 600;
 }
@@ -221,4 +221,78 @@ b {
   .button-body {
     font-size: 1rem;
   }
+}
+
+.background-card-1 {
+  background-image: url('/img/fondo-card1cel.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #F27B42;
+  border-radius: 20px;
+}
+@media (min-width: 576px) {
+  .background-card-1 {
+    background-image: url('/img/fondo-card1.png'); 
+  }
+}
+
+.background-card-2 {
+  background-image: url('/img/fondo-card2cel.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #F27B42;
+  border-radius: 20px;
+}
+@media (min-width: 576px) {
+  .background-card-2 {
+    background-image: url('/img/fondo-card2.png'); 
+  }
+}
+
+.card-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #525867;
+}
+
+.card-roll {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #525867;
+}
+
+.card-opinion {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #132045;
+}
+
+.eficiencia-text {
+  font-size: 1.13rem;
+  font-weight: 400;
+  color: #525867;
+}
+
+.icon-check {
+  width: 2.1rem;
+}
+@media (min-width: 1400px) {
+  .icon-check {
+    width: 2.3rem;
+  }
+}
+
+.image-card-1 {
+  background-image: url('/img/image-card-1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #525867;
 }
